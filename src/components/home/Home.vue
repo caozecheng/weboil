@@ -1,5 +1,17 @@
 <template>
-  <div>
+  <div class="home-container">
+    <div class="header">
+      <div class="menu">
+        <el-dropdown>
+          <el-button type="primary"></el-button>
+          <el-dropdown-menu slot="dropdown">
+            <el-menu text-color="rgb(191, 203, 217)" active-text-color="rgb(71, 136, 255)" background-color="#071234" :default-active="activeIndex" @select="handleSelect" router>
+              <NavMenu :navMenus="menuData"></NavMenu>
+            </el-menu>
+          </el-dropdown-menu>
+        </el-dropdown>
+      </div>
+    </div>
 
   </div>
 </template>

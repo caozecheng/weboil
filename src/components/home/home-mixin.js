@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            
+            menuData: require("../../../static/menuData.json"),
         }
     },
     beforeCreate: function () { },
@@ -24,6 +24,8 @@ export default {
 
     },
     methods: {
-        
+        handleSelect(key, keyPath) {
+            console.log(key, keyPath);
+          }
     }
 }

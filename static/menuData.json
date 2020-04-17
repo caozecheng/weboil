@@ -1,0 +1,113 @@
+[{
+    "entity": {
+        "id": 1,
+        "name": "sinochemoil-1",
+        "icon": "el-icon-s-data",
+        "alias": "首页统计"
+    },
+    "childs": [
+        {
+            "entity": {
+                "id": 11,
+                "name": "welcome",
+                "icon": "",
+                "alias": "统计数据"
+            }
+        }
+    ]
+},
+{
+    "entity": {
+        "id": 2,
+        "name": "sinochemoil-2",
+        "icon": "el-icon-s-data",
+        "alias": "报警数据"
+    },
+    "childs": [
+        {
+            "entity": {
+                "id": 21,
+                "name": "alarmStatistics",
+                "icon": "",
+                "alias": "报警统计"
+            }
+        },
+        {
+            "entity": {
+                "id": 22,
+                "name": "gasDetection",
+                "icon": "",
+                "alias": "可燃气检测"
+            }
+        },
+        {
+            "entity": {
+                "id": 23,
+                "name": "videoPreview",
+                "icon": "",
+                "alias": "视频预览"
+            }
+        },
+        {
+            "entity": {
+                "id": 24,
+                "name": "alarmRecord",
+                "icon": "",
+                "alias": "报警记录"
+            }
+        },
+        {
+            "entity": {
+                "id": 25,
+                "name": "alarmMap",
+                "icon": "",
+                "alias": "报警地图"
+            }
+        }
+    ]
+},
+{
+    "entity": {
+        "id": 3,
+        "name": "sinochemoil-3",
+        "icon": "el-icon-s-data",
+        "alias": "库存展示"
+    },
+    "childs": [
+        {
+            "entity": {
+                "id": 31,
+                "name": "tanklevel",
+                "icon": "",
+                "alias": "储罐状态"
+            }
+        },
+        {
+            "entity": {
+                "id": 32,
+                "name": "oilStatistics",
+                "icon": "",
+                "alias": "油储统计"
+            }
+        }
+    ]
+},
+{
+    "entity": {
+        "id": 4,
+        "name": "sinochemoil-4",
+        "icon": "el-icon-s-data",
+        "alias": "设备数据"
+    },
+    "childs": [
+        {
+            "entity": {
+                "id": 41,
+                "name": "device",
+                "icon": "",
+                "alias": "设备台账"
+            }
+        }
+    ]
+}
+]
