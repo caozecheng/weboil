@@ -21,7 +21,7 @@ axios.interceptors.request.use(config => {
 });
 
 //http响应拦截器
-axios, interceptors.response.use(data => {//响应成功关闭loading
+axios.interceptors.response.use(data => {//响应成功关闭loading
   return data
 }, (err) => {
   let title = '服务异常'
@@ -77,7 +77,7 @@ axios, interceptors.response.use(data => {//响应成功关闭loading
 
 Vue.prototype.$http = axios;
 //避免重复信息
-let obj = '';
+// let obj = '';
 //添加post方法
 Vue.prototype.$post = function post(url, data) {
   return new Promise((resolve, reject) => {

@@ -39,9 +39,20 @@ export default {
                         username: this.loginForm.userName,
                         password: this.loginForm.password
                     }
-                    ajaxLogin(parm).then(res => {
-                        
+                    ajaxLogin(param).then(res => {
+                        if (res) {
+                            this.__setLocal('login', this.loginForm);
+                            this.__setLocal('realname', res.realname);
+                            this.$msg("", 'success', '登录成功');
+                            this.$router.push('/home');
+                        }
+                    }).catch(err => {
+                        console.log(err)
+                        this.$msg("", 'warning', '登录失败')
                     })
+                } else {
+                    console.log('error submit!!');
+                    return false;
                 }
             })
         }
