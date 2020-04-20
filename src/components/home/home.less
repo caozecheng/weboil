@@ -1,19 +1,39 @@
-.home-container{
-  width: 100%;
-  height: 100%;
+.menu {
+  width: 28px;
+  height: 20px;
+  cursor: pointer;
   position: absolute;
-  background: url(../../assets/images/home/bg.png) no-repeat;
-  .header{
-    width: 100%;
-    height: 80px;
-    background: url(../../assets/images/home/head_bg.png) no-repeat;
-    .nav{
-      width: 40px;
-      height: 40px;
-      background: url(../../assets/images/home/menu.png) no-repeat;
-      position: absolute;
-      top: 34px;
-      left: 26px;
-    }
+  left: 32px;
+  top: 23px;
+  .el-dropdown {
+      width: 100%;
+      height: 100%;
+  }
+  .el-button--primary {
+      padding: 0;
+      width:100%;
+      height: 100%;
+      border-radius: inherit;
+      border:none;
+      background: url('../../assets/images/home/menu.png') no-repeat;
+      background-size: 100% 100%;
+  }
+}
+.el-menu {
+  border-right: 0;
+  left: 24px;
+}
+.el-dropdown-menu {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.breadcrumb {
+  position: absolute;
+  height: 20px;
+  top: 23px;
+  left: 71px;
+  .el-breadcrumb {
+      line-height: 1.8;
   }
 }
