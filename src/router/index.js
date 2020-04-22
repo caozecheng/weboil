@@ -19,6 +19,10 @@ export default new Router({
       path: '/home',
       component: Home,
       replace: true,
+      redirect: '/welcome',
+      children: [
+        {path: '/welcome', replace: true, component: () => import('../components/page/welcome/Welcome'), name: 'Welcome'}
+      ]
     }
   ]
 })

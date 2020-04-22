@@ -15,10 +15,13 @@
         </div>
         <div class="breadcrumb">
           <el-breadcrumb separator-class="el-icon-arrow-right">
-            <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
-            <el-breadcrumb-item>油库统计</el-breadcrumb-item>
+            <el-breadcrumb-item class="text" :to="{ path: '/home' }">首页</el-breadcrumb-item>
+            <el-breadcrumb-item class="text">{{activeName}}</el-breadcrumb-item>
           </el-breadcrumb>
         </div>
+      </div>
+      <div class="main-container">
+        <router-view></router-view>
       </div>
     </div>
   </div>
