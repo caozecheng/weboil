@@ -1,0 +1,11 @@
+{
+  "shoufayou": [
+                {"oilId": 1, "oilName": "92#汽油（京VI）", "shortName": "92#汽油", "type": "汽油", "oilMass": 61, "count": 447, "f": 0.14},
+                {"oilId": 2, "oilName": "95#汽油（京VI）", "shortName": "95#汽油", "type": "汽油", "oilMass": 225, "count": 447, "f": 0.5},
+                {"oilId": 3, "oilName": "0#柴油（京VI）", "shortName": "0#柴油", "type": "柴油", "oilMass": 10, "count": 447, "f": 0.02},
+                {"oilId": 4, "oilName": "-10柴油（京VI））", "shortName": "-10柴油", "type": "柴油", "oilMass": 111, "count": 447, "f": 0.25},
+                {"oilId": 5, "oilName": "-20#柴油（京VI）", "shortName": "-20#柴油", "type": "柴油", "oilMass": 40, "count": 447, "f": 0.09},
+                {"oilId": 6, "oilName": "92#汽油（国", "shortName": "92#汽油", "type": "汽油", "oilMass": 0, "count": 447, "f": 0},
+                {"oilId": 7, "oilName": "95#汽油（国", "shortName": "95#汽油", "type": "汽油", "oilMass": 0, "count": 447, "f": 0}
+              ]
+}

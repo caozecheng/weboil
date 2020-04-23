@@ -11,6 +11,7 @@ import './assets/style/baseStyle.less'
 
 //引入全局的脚本
 import './assets/javascript/baseAxios'
+// import './assets/javascript/base_echarts.js'
 Vue.config.productionTip = false
 
 let Base64 = require('js-base64').Base64;
