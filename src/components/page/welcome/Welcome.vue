@@ -37,6 +37,20 @@
           <div class="border-left item">
             <div class="title">仓库利用率</div>
             <div id="biaopan" class="biaopan"></div>
+            <div class="content-left">
+              <div class="revo-table-item">
+                <p>周转天数</p>
+                <p>110天</p>
+              </div>
+              <div class="revo-table-item">
+                <p>平均库存</p>
+                <p>10吨</p>
+              </div>
+              <div class="revo-table-item">
+                <p>周转率</p>
+                <p>50%</p>
+              </div>
+            </div>
           </div>
         </el-col>
         <el-col :span="6" :style="{height: rowHeight + 'px'}">
